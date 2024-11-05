@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml:2:13-83
+INJECTED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml:2:13-83
+	package
+		INJECTED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml
+	xmlns:android
+		ADDED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml:2:23-81
+uses-sdk
+INJECTED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml reason: use-sdk injection requested
+INJECTED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml
+INJECTED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml
+	android:minSdkVersion
+		INJECTED from /Users/wuminghao/Documents/Yiihua/Android/KMPTest/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1255632666927773285.xml
