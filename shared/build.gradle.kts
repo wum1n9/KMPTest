@@ -4,6 +4,26 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.maven.publish)
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("github") {
+            from(components["kotlin"])  // 选择发布组件
+            artifactId = "gurusdk"      // 替换为 SDK 名称
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/wum1n9/KMPTest")
+            credentials {
+                username = "wum1n9"
+                password = "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"
+            }
+        }
+    }
 }
 
 kotlin {
