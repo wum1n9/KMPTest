@@ -7,11 +7,16 @@ plugins {
     alias(libs.plugins.maven.publish)
 }
 
+group = "com.example.kmm.test"
+version = "1.0.0"
+
 publishing {
     publications {
         create<MavenPublication>("github") {
             from(components["kotlin"])  // 选择发布组件
             artifactId = "gurusdk"      // 替换为 SDK 名称
+            groupId = group.toString()
+            version = version
         }
     }
     repositories {
